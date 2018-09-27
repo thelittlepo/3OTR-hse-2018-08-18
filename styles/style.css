@@ -49,17 +49,31 @@ table {
 h1{
   font-family: 'PT Sans Caption', sans-serif;
 }
-p:first-of-type {
-	font-size: 24.5px;
+p {
+	font-size: 23px;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: normal;
 	padding-right:1px;
 	padding-top: 5.1px;
-	line-height: 32.8px;
+	line-height: 35px;
+	letter-spacing: 0.0002;
+	word-spacing: 2.7px;
+	 color: black;
+	 margin: -19px auto 23px;
+}
+ul{
+	font-size: 19px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+	padding-right:1px;
+	padding-top: 5.1px;
+	padding-bottom: 18px;
+	line-height: 30px;
 	letter-spacing: 0.0002;
 	word-spacing: 2.7px;
 	 color: gray;
-	 margin: -19px auto 23px;
+	 margin: -19px 10px auto 25px;
+	list-style:  disc;
 }
 h2 {
   font-family: 'PT Sans Caption',sans-serif;
@@ -76,14 +90,16 @@ h1 {
 h2 {
   font-size: 32px;
   font-weight: bold;
+	margin: 64px auto 20px 0px;
 }
 h3{
   font-size: 25px;
   font-weight: bold;
+	line-height: 30px;
+	margin: 64px auto 20px 0px;
 }
 
 body {
-  background-image: url(dc-online-media-mockup.jpg);
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;

@@ -49,6 +49,12 @@ table {
 h1{
   font-family: 'PT Sans Caption', sans-serif;
 }
+p:first-of-type {
+	color: gray;
+}
+p:first-of-type+p {
+	color: gray;
+}
 p {
 	font-size: 23px;
 	font-family: 'PT Sans', sans-serif;
@@ -59,7 +65,7 @@ p {
 	letter-spacing: 0.0002;
 	word-spacing: 2.7px;
 	 color: black;
-	 margin: -19px auto 23px;
+	 margin: 30px auto 23px;
 }
 ul{
 	font-size: 19px;
@@ -90,21 +96,22 @@ h1 {
 h2 {
   font-size: 32px;
   font-weight: bold;
-	margin: 64px auto 20px 0px;
+	margin: 64px auto 20px 10px;
+	padding: 20px auto 30px;
+	line-height: 90px;
 }
 h3{
   font-size: 25px;
   font-weight: bold;
-	line-height: 30px;
+	line-height: 90px;
 	margin: 64px auto 20px 0px;
 }
-
-body {
-  background-size: 800px 20624px;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-body {
+h1, h2, h3, p, ul {
   width: 700px;
   margin: 0 auto;
+}
+img {
+  display: block;
+  width: 1020px;
+	margin: 90px auto 90px;
 }

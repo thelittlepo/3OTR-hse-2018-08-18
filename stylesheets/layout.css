@@ -1,4 +1,9 @@
-h1{
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
   font-family: 'PT Sans Caption', sans-serif;
 }
 p:first-of-type {
@@ -8,30 +13,37 @@ p:first-of-type+p {
 	color: gray;
 }
 p {
-	font-size: 23px;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: normal;
-	padding-right:1px;
-	padding-top: 5.1px;
-	line-height: 35px;
-	letter-spacing: 0.0002;
-	word-spacing: 2.7px;
-	 color: black;
 	 margin: 30px auto 23px;
-}
-ul{
-	font-size: 19px;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: normal;
-	padding-right:1px;
 	padding-top: 5.1px;
-	padding-bottom: 18px;
-	line-height: 30px;
+	padding-right:1px;
+
 	letter-spacing: 0.0002;
 	word-spacing: 2.7px;
-	 color: gray;
+
+	 color: black;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 35px;
+}
+ul {
 	 margin: -19px 10px auto 25px;
+	padding-top: 5.1px;
+	padding-right:1px;
+	padding-bottom: 18px;
+
 	list-style:  disc;
+
+	letter-spacing: 0.0002;
+	word-spacing: 2.7px;
+
+	 color: gray;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	line-height: 30px;
 }
 h2 {
   font-family: 'PT Sans Caption',sans-serif;
@@ -41,23 +53,26 @@ h3 {
 }
 
 h1 {
+  margin: 70px auto 20px 0px;
+
   font-size: 40px;
   font-weight: bold;
-  margin: 70px auto 20px 0px;
 	line-height: 80px;
 }
 h2 {
-  font-size: 32px;
-  font-weight: bold;
 	margin: 64px auto 20px 10px;
 	padding: 20px auto 30px;
+
+  font-size: 32px;
+  font-weight: bold;
 	line-height: 90px;
 }
-h3{
+h3 {
+	margin: 64px auto 20px 0px;
+
   font-size: 25px;
   font-weight: bold;
 	line-height: 90px;
-	margin: 64px auto 20px 0px;
 }
 h1, h2, h3, p, ul {
   width: 700px;
@@ -65,6 +80,7 @@ h1, h2, h3, p, ul {
 }
 img {
   display: block;
+
   width: 1020px;
 	margin: 90px auto 90px;
 }
@@ -72,92 +88,107 @@ img {
 h1 {
 font-family: 'PT Sans Caption',sans-serif;
 }
-h2{
+h2 {
   font-family: 'PT Sans Caption',sans-serif;
 }
 h3 {
 	font-family: 'PT Sans Caption',sans-serif;
 }
-h4{
+h4 {
   font-family: 'PT Sans Caption',sans-serif;
 }
 p{
 	font-family: 'PT Sans', sans-serif;
 }
-blockquote{
+blockquote {
 	font-family: 'PT Sans', sans-serif;
 }
-ul{
+ul {
 	font-family: 'PT Sans', sans-serif;
 }
-h1{
+h1 {
+	margin: 70px auto 20px 0px;
+
 	font-size: 40px;
 	font-weight: bold;
-	margin: 70px auto 20px 0px;
 	line-height: 80px;
 }
 h2 {
-  font-size: 32px;
-  font-weight: bold;
 	margin: 64px auto 20px 10px;
 	padding: 20px auto 30px;
+
+  font-size: 32px;
+  font-weight: bold;
 	line-height: 60px;
 }
 h3 {
+	margin: 64px auto 20px 0px;
+
   font-size: 25px;
   font-weight: bold;
 	line-height: 70px;
-	margin: 64px auto 20px 0px;
 }
 h4 {
+	margin: 40 auto 0px;
+
 	font-size: 23px;
   font-weight: bold;
 	line-height: 50px;
-	margin: 40 auto 0px;
 }
-ul{
-	font-size: 21px;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: normal;
-	padding-right:1px;
-	padding-top: 5.1px;
-	padding-bottom: 18px;
-	line-height: 30px;
-	letter-spacing: 0.0002;
-	word-spacing: 2.7px;
-	color: gray;
+ul {
 	margin: -19px 10px auto 25px;
+	padding-top: 5.1px;
+	padding-right:1px;
+	padding-bottom: 18px;
+
 	list-style:  disc;
+
+	letter-spacing: 0.0002;
+	word-spacing: 2.7px;
+
+	color: gray;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 30px;
 }
-h1 + p{
+h1 + p {
 	color: gray;
 }
+
 p {
+	 margin: 30px auto 15px;
+	padding-top: 5.1px;
+	padding-right:1px;
+
+	letter-spacing: 0.0002;
+	word-spacing: 2.7px;
+
+	 color: black;
+
+	font-family: 'PT Sans', sans-serif;
 	font-size: 22px;
-	font-family: 'PT Sans', sans-serif;
 	font-weight: normal;
-	padding-right:1px;
-	padding-top: 5.1px;
 	line-height: 30px;
-	letter-spacing: 0.0002;
-	word-spacing: 2.7px;
-	 color: black;
-	 margin: 30px auto 15px;
 }
-blockquote{
-	font-size: 21px;
-	font-style: italic;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: normal;
-	padding-right:1px;
+blockquote {
+	 margin: 30px auto 15px;
 	padding-top: 5.1px;
-	line-height: 30px;
+	padding-right:1px;
+	 padding-left: 20px;
+
 	letter-spacing: 0.0002;
 	word-spacing: 2.7px;
+
 	 color: black;
-	 margin: 30px auto 15px;
 	 border-left: solid;
-	 padding-left: 20px;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 30px;
 }
 p:first-letter {
 	color: red;
@@ -168,18 +199,16 @@ a, a:visited {
 h1, h2, h3, h4 {
 	width: 700px;
 	margin: 0 auto;
+
 	font-weight: bold;
 }
-p, ul, blockquote{
+p, ul, blockquote {
 	width: 700px;
 	margin: 0 auto;
 }
 img {
   display: block;
+
   width: 1020px;
 	margin: 70px auto 70px;
-}
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
